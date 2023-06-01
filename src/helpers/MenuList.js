@@ -1,39 +1,39 @@
-import Pepperoni from "../asset/pic-1.jpg";
-import Margherita from "../asset/pic-2.jpg";
-import PedroTechSpecial from "../asset/pic-3.jpg"
-import Vegan from "../asset/pic-4.jpg"
-import Pineapple from "../asset/pic-5.jpg"
-import Expensive from "../asset/pic-6.jpg"
+import pc from "../asset/pic-1.jpg";
+import pd from "../asset/pic-2.jpg";
+import pa from "../asset/pic-3.jpg"
+import pg from "../asset/pic-4.jpg"
+import pe from "../asset/pic-5.jpg"
+import pf from "../asset/pic-6.jpg"
 
 export const MenuList = [
   {
     name: "Caramel Frappuccino® Blended Beverage",
-    image: Pepperoni,
+    image: pc,
     price: 15.99,
   },
   {
     name: "Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut",
-    image: Margherita,
+    image: pd,
     price: 11.99,
   },
   {
     name: "Hot Chocolate",
-    image: PedroTechSpecial,
+    image: pa,
     price: 256.53,
   },
   {
     name: "Caramel Frappuccino® Blended Beverage",
-    image: Vegan,
+    image: pg,
     price: 17.99,
   },
   {
     name: "White Hot Chocolate",
-    image: Pineapple,
+    image: pe,
     price: 4.99,
   },
   {
     name: "Mocha Frappuccino® Blended Beverage",
-    image: Expensive,
+    image: pf,
     price: 1997.99,
   },
 ];
