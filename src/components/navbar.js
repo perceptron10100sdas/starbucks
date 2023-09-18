@@ -17,7 +17,7 @@ function navbar() {
         <div className='leftside' id={openLinks?"open": "close"}>
             <img src={Logo}  />
     
-        </div>
+       
 <div className='rightside'>
 
   <Link to="/">home</Link>
@@ -26,6 +26,7 @@ function navbar() {
   <Link to="/contact">contacts</Link>
   <button onClick={toggleNavbar}><ReorderIcon/></button>
 </div>
+ </div>
  </div>
     
     
